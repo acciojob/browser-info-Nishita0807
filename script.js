@@ -6,7 +6,7 @@ body.appendChild(div);
 const version=document.navigator.appVersion;
 
 div.id="browser-info";
-const string="You are using" + name+"version"+version
+const string="You are using" + name+"version"+version;
 div.innerText= string;
 
 
